@@ -1,18 +1,22 @@
 //Usecase 1- get a random number
+
 let num=Math.floor(Math.random()*10);
 console.log("Random single digit value: "+num)
 
 //Usecase 2- Get random dice number 1-6
+
 let diceOne=Math.floor(Math.random()*6)+1;
 console.log("First dice value: "+diceOne)
 
 //Usecase 3-Add two dice numbers
+
 let diceTwo=Math.floor(Math.random()*6)+1;
 console.log("Second dice value: "+diceTwo)
 //Add two dice
 console.log("After adding dice 1 and dice 2: "+(diceOne+diceTwo));
 
 //Usecase 4- Find 5 random 2-digit numbers and  calculate average and sum
+
 let sum=0;
 let randomNumber=0;
 for(var i=0;i<5;i++)
@@ -25,6 +29,7 @@ console.log("\nSum of 5 random number is: "+sum);
 console.log("Average of 5 random numb er is: "+ Math.round(sum/5));
 
 //Usecase 5- Unit conversion
+
 //1: Convert ft to inch
 let input = 42;
 console.log("42 inch is: "+input/12+" ft");
