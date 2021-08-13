@@ -9,7 +9,7 @@ function CheckPalindrome()
   var numberTwo = prompt("Enter Number 2: ");
 
 //Revere integer
-  var resultOne = numberOne.split("").reverse();
+  var resultOne = numberOne.split("");
   var resultTwo = numberTwo.split("").reverse();
 
   if (resultTwo.join("") == resultOne.join("")) 
